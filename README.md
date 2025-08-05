@@ -4,7 +4,7 @@ Personal portfolio website showcasing my projects and skills.
 
 ## Live Demo
 
-[View Portfolio](https://your-netlify-url.netlify.app)
+[View Portfolio](https://billdu.netlify.app)
 
 ## 🛠️ Tech Stack
 
