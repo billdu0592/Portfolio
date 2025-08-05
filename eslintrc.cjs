@@ -1,0 +1,35 @@
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+    'prettier',
+  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint', 'prettier'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  rules: {
+    'prefer-const': 'error',
+    'no-var': 'error',
+    'no-console': 'warn',
+    'no-debugger': 'error',
+    'prettier/prettier': 'error',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/jsx-uses-vars': 'error',
+    'react/jsx-no-duplicate-props': 'error',
+    'react/jsx-key': 'error',
+    'react/jsx-no-target-blank': 'error',
+    'react/jsx-no-undef': 'error',
+    'react/jsx-pascal-case': 'error',
+  },
+} 
